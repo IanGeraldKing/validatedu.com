@@ -1,0 +1,9 @@
+<ul>
+<% @courses.each do |course| %>
+	<li>
+		<%= course.name %>
+		<img src=<%= course.image_url %>>
+	</li>
+
+<% end %>
+</ul>

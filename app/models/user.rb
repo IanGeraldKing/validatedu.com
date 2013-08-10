@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
 	# associations
+	has_many :completed_courses
+	has_many :courses, through: :completed_courses
 	
 	# validations
 	has_secure_password
