@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  school_id: 
+  name: MyString
+  image_url: MyString
+  teacher_names: MyString
+  start_date: 2013-08-10 14:10:32
+  end_date: 2013-08-10 14:10:32
+
+two:
+  school_id: 
+  name: MyString
+  image_url: MyString
+  teacher_names: MyString
+  start_date: 2013-08-10 14:10:32
+  end_date: 2013-08-10 14:10:32
